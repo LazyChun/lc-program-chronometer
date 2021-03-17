@@ -1,4 +1,6 @@
 import React from "react";
+import Chrono from "./Chrono";
+import "./Chrono.css"
 
 const appStyle = {
   maxWidth: 1300,
@@ -6,7 +8,7 @@ const appStyle = {
 };
 
 const App = () => {
-  return <div style={appStyle}>Welcome to LazyChun !</div>;
+  return <div className={"container"} style={appStyle}><Chrono/></div>;
 };
 
 export default App;
